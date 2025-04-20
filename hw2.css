@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Kanit", sans-serif;}
+.container{
+  background-image: url(https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  
+}
+.home{
+  align-self: flex-end;
+  margin-right: 50px;
+  margin-top: 10px;
+  font-size: 8px;
+}
+.head{
+  margin-top: 70px;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.persen{
+  width: 200px;
+  height: 5px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px #000000
+  ;
+  
+}
+.progress-bar{
+  width: 75%;
+  height: 5px;
+  background-color: skyblue;
+
+}
+.fa-solid,.fa-brands{
+  color: white;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 8px;
+}
+.onetwo{
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+}
+.boxzero{
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+}
+.zero{
+  align-self:flex-start;
+}
+.hundred{
+  align-self: flex-end;
+}
+.button{
+  border: 1px solid gray;
+  padding: 3px;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+.site{
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+button{
+  height: 15px;
+  width: 60px;
+  font-size: 6px;
+  margin-bottom: 10px;
+}
+.icon{
+  height: 22px;
+  width: 22px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
